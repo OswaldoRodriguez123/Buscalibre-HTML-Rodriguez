@@ -1,0 +1,68 @@
+.text-center {
+  text-align: center;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.login.login-with-news-feed .right-content .login-header .brand .logo_img {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  font-size: 0;
+  top: -3px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+.header .navbar-brand b {
+  margin-left: 8px;
+}
+.li_menu {
+  cursor: pointer;
+}
+
+.dataTable {
+  cursor: pointer;
+}
+
+@media screen {
+  #printSection {
+    display: none;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printSection,
+  #printSection * {
+    visibility: visible;
+  }
+  #printSection {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+#div_filtros {
+  align-items: center;
+  width: 500px;
+  display: inline-flex;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+#div_filtros label {
+  color: #4e5c68;
+  font-weight: 600;
+  margin-right: 10px;
+  padding-top: 9px;
+}
+.dt-bootstrap4 {
+  table-layout: fixed;
+  width: 99.1% !important;
+}
+.content {
+  margin-left: 0px;
+}
